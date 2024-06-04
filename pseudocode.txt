@@ -1,0 +1,15 @@
+Calculator
+
+addition, subtraction, multiplication, division.
+
+click based
+
+0-9, + - * / =, clear, negative, decimal place, percentage
+
+everything is a string, parseInt for all integers to get wether it is floating point or negative.
+
+sign is switch case from main function.
+
+answer continuation (if after getting an answer user presses a sign, do operation to previous answer).
+
+max 16 numbers
