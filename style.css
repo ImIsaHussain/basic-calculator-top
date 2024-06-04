@@ -1,24 +1,103 @@
 * {
-    border: red solid 1px;
-    padding: 10px;
-    margin: 10px;
+    margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(45, 45, 45);
+    background-color: rgb(240, 240, 240);
 }
 
 body {
     display: flex;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-button {
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: rgb(45, 45, 45) solid 2px;
+    border-radius: 15px;
+    width: 500px;
+    height: 748px;
+    overflow-y: scroll;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: center;
+    border: rgb(45, 45, 45) solid 2px;
+    border-radius: 15px;
+    width: 500px;
+    height: 748px;
+    overflow-y: scroll;
+    align-self: flex-start;
+}
+
+.history-item {
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.operation {
+    background-color: rgb(255, 190, 60);
+    border: rgb(45, 45, 45) solid 2px;
+    color: rgb(45, 45, 45);
+    border-radius: 15px;
     height: 100px;
     width: 100px;
     font-size: 50px;
+    flex: auto;
+
+}
+
+button {
+    background-color: rgb(45, 45, 45);
+    border: rgb(45, 45, 45) solid 2px;
+    color: rgb(240, 240, 240);
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    flex: auto;
+    cursor: pointer;
 }
 
 #display {
     height: 100px;
     display: flex;
     align-items: center;
+    font-size: 35px;
+    justify-content: right;
+    background-color: rgba(211, 211, 211, 0.375);
+    border: rgb(45, 45, 45) solid 2px;
+    border-radius: 15px;
+    padding: 0 15px 0 15px;
+}
+
+#row-one {
+    
+}
+
+#row-two {
+
+}
+
+#row-three {
+
+}
+
+#row-four {
+
+}
+
+#row-five {
+    display: flex;
 }
