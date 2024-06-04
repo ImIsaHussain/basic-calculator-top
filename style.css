@@ -21,7 +21,7 @@ body {
     border: rgb(45, 45, 45) solid 2px;
     border-radius: 15px;
     width: 400px;
-    height: 621px;
+    height: 546px;
     overflow-y: scroll;
 }
 
@@ -32,7 +32,7 @@ body {
     border: rgb(45, 45, 45) solid 2px;
     border-radius: 15px;
     width: 400px;
-    height: 621px;
+    height: 546px;
     overflow-y: scroll;
     align-self: flex-start;
 }
@@ -50,8 +50,8 @@ body {
     border: rgb(45, 45, 45) solid 2px;
     color: rgb(45, 45, 45);
     border-radius: 15px;
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     font-size: 50px;
     flex: auto;
 
@@ -62,8 +62,8 @@ button {
     border: rgb(45, 45, 45) solid 2px;
     color: rgb(240, 240, 240);
     border-radius: 15px;
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     font-size: 50px;
     flex: auto;
     cursor: pointer;
@@ -81,21 +81,13 @@ button {
     padding: 0 15px 0 15px;
 }
 
-#row-one {
-    
-}
+#row-one {}
 
-#row-two {
+#row-two {}
 
-}
+#row-three {}
 
-#row-three {
-
-}
-
-#row-four {
-
-}
+#row-four {}
 
 #row-five {
     display: flex;
