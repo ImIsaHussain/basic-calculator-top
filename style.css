@@ -20,7 +20,7 @@ body {
     align-content: center;
     border: rgb(45, 45, 45) solid 2px;
     border-radius: 15px;
-    width: 400px;
+    width: 315px;
     height: 546px;
     overflow-y: scroll;
 }
@@ -31,7 +31,7 @@ body {
     align-content: center;
     border: rgb(45, 45, 45) solid 2px;
     border-radius: 15px;
-    width: 400px;
+    width: 315px;
     height: 546px;
     overflow-y: scroll;
     align-self: flex-start;
